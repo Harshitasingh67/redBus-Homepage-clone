@@ -6,10 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>redBus Homepage clone</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+    <!-- navbar starts from here---- -->
 
+    <nav class=" p-6 flex justify-between items-center">
+        <div class="flex gap-5">
+            <div class="lg:hidden">
+                <i class="fa-solid fa-bars " style="color: #0c0d0d;"></i>
+            </div>
+            <img class="width:100px h-8 lg:w-[130px] lg:h-[50px] lg:border-r-[1px] lg:border-gray-500 pr-12 mr-12 font-black "
+                src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" />
+
+            <section class="hidden  lg:flex gap-16">
+
+                <div>
+                    <img src="https://st.redbus.in/web/images/layout/rb_vertical.svg" />
+                    <p>Bus Tickets</p>
+                </div>
+
+                <div>
+                    <img src="https://st.redbus.in/web/images/layout/ryde_vertical.svg" />
+                    <p>Cab Rental</p>
+                </div>
+
+                <div>
+                    <img src="https://st.redbus.in/web/images/layout/rail_vertical.svg" />
+                    <p>Train Tickets</p>
+                </div>
+
+            </section>
+
+        </div>
+
+
+
+        <div class="flex lg:pr-10">
+
+            <div class="lg:hidden mr-3 border-[1px] border-black rounded-sm px-0.5 pt-1 flex relative h-7 ">
+                <i class="fa-solid fa-arrow-down-long " style="color: #121212;"></i>
+
+                <div class="absolute pl-1 mt-0.5">.</div>
+
+            </div>
+
+            <img class="w-9 h-9 hidden lg:block" src="./assets/help.png" />
+            <p class="hidden lg:block">Help</p>
+
+            <i class="fa-regular fa-user border-[1px] border-black p-1 w-6 h-6 rounded-full ml-6 mr-2"
+                style="color: #050505;"></i>
+            <p class="text-sm text-center hidden lg:block ">Account <span>&#x2304;</span></p>
+
+        </div>
+    </nav>
 </body>
 
 </html>
