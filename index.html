@@ -14,7 +14,9 @@
 <body>
     <!-- navbar starts from here---- -->
 
-    <nav class=" p-6 flex justify-between items-center">
+
+
+    <nav class=" p-6 flex justify-between items-center  border border-t-gray-400 border-b-gray-400">
         <div class="flex gap-5">
             <div class="lg:hidden">
                 <i class="fa-solid fa-bars " style="color: #0c0d0d;"></i>
@@ -24,18 +26,21 @@
 
             <section class="hidden  lg:flex gap-16">
 
-                <div>
-                    <img src="https://st.redbus.in/web/images/layout/rb_vertical.svg" />
+                <div class="flex justify-center items-center flex-col">
+                    <img class="grayscale brightness-0 contrast-[100%] w-11 hover:filter-none"
+                        src="https://st.redbus.in/web/images/layout/rb_vertical.svg" />
                     <p>Bus Tickets</p>
                 </div>
 
-                <div>
-                    <img src="https://st.redbus.in/web/images/layout/ryde_vertical.svg" />
+                <div class="flex justify-center items-center flex-col">
+                    <img class="grayscale brightness-0 contrast-[100%] hover:filter-none"
+                        src="https://st.redbus.in/web/images/layout/ryde_vertical.svg" />
                     <p>Cab Rental</p>
                 </div>
 
-                <div>
-                    <img src="https://st.redbus.in/web/images/layout/rail_vertical.svg" />
+                <div class="flex justify-center items-center flex-col">
+                    <img class="grayscale brightness-0 contrast-[100%] hover:filter-none"
+                        src="https://st.redbus.in/web/images/layout/rail_vertical.svg" />
                     <p>Train Tickets</p>
                 </div>
 
@@ -53,16 +58,54 @@
                 <div class="absolute pl-1 mt-0.5">.</div>
 
             </div>
+            <section class="flex justify-center items-center gap-3">
+                <div class="flex justify-center items-center">
+                    <img class="w-9 h-9 hidden lg:block" src="./assets/help.png" />
+                    <p class="hidden lg:block">Help</p>
 
-            <img class="w-9 h-9 hidden lg:block" src="./assets/help.png" />
-            <p class="hidden lg:block">Help</p>
-
-            <i class="fa-regular fa-user border-[1px] border-black p-1 w-6 h-6 rounded-full ml-6 mr-2"
-                style="color: #050505;"></i>
-            <p class="text-sm text-center hidden lg:block ">Account <span>&#x2304;</span></p>
-
+                </div>
+                <div class="flex justify-center items-center"><i
+                        class="fa-regular fa-user border-[1px] border-black p-1 w-6 h-6 rounded-full ml-6 mr-2"
+                        style="color: #050505;"></i>
+                    <p class="text-sm text-center hidden  lg:flex  lg:justify-center lg:items-center">Account
+                        <span>&#x2304;</span>
+                    </p>
+                </div>
+            </section>
         </div>
+
     </nav>
+
+    <section class="  lg:hidden p-6 flex gap-4  shadow-lg">
+
+        <div class="flex justify-center items-center flex-col border-2 border-red-500 bg-red-500 rounded-lg ">
+            <img class="brightness-0 invert grayscale-1 w-11 pt-2"
+                src="https://st.redbus.in/web/images/layout/rb_vertical.svg" />
+            <p class="text-center text-white ">Book bus tickets</p>
+        </div>
+
+        <div class="flex justify-center items-center flex-col ">
+            <img class="grayscale brightness-0 contrast-[100%] w-11 "
+                src="https://st.redbus.in/web/images/layout/ryde_vertical.svg" />
+            <p class="text-center">Rent cabs, bus &TT</p>
+        </div>
+
+        <div class="flex justify-center items-center flex-col ">
+            <img class="grayscale brightness-0 contrast-[100%] w-11 "
+                src="https://st.redbus.in/web/images/layout/rail_vertical.svg" />
+            <p class="text-center">Book train tickets</p>
+        </div>
+
+    </section>
+
+    <!-- main section started from here -->
+
+    <main
+        class=" hidden lg:block lg:bg-[url('https://s3.rdbuz.com/web/images/homeV2/HomeBannerImg.svg')] w-[100%] h-[500px] bg-no-repeat">
+
+
+    </main>
+
 </body>
 
 </html>
