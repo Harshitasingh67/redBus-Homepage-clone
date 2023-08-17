@@ -80,7 +80,7 @@
 
     <section class="  lg:hidden p-6 flex gap-4  shadow-lg">
 
-        <div class="flex justify-center items-center flex-col border-2 border-red-500 bg-red-500 rounded-lg ">
+        <div class="flex justify-center items-center flex-col border-2 border-rose-600 bg-rose-600 rounded-lg ">
             <img class="brightness-0 invert grayscale-1 w-11 pt-2"
                 src="https://st.redbus.in/web/images/layout/rb_vertical.svg" />
             <p class="text-center text-white ">Book bus tickets</p>
@@ -105,8 +105,15 @@
     <main
         class=" lg:block lg:bg-[url('https://s3.rdbuz.com/web/images/homeV2/HomeBannerImg.svg')]  w-[100%] lg:h-[590px] bg-no-repeat relative">
 
+        <section class="lg:hidden text-gray-800 text-center my-3 ">
+
+            <h3 class="font-bold ">India's No. 1 bus booking site</h3>
+            <p>Assured seat of your choice</p>
+
+        </section>
+
         <div
-            class=" grid grid-cols-1 px-6 lg:px-0 lg:grid-cols-4  border-2 border-light-800  shadow-2xl lg:border-white lg:content-center  lg:bg-white lg:rounded-3xl lg:w-[930px] absolute mt-10 ml-8 rounded-xl w-96 lg:mt-20 lg:ml-36 lg:h-28">
+            class=" grid grid-cols-1 px-6 lg:px-0 lg:grid-cols-4  border-2 border-light-800  shadow-2xl lg:border-white lg:content-center  lg:bg-white lg:rounded-3xl lg:w-[930px] absolute ml-8 rounded-xl w-96 lg:mt-20 lg:ml-36 lg:h-28">
 
             <div
                 class="flex items-center gap-4  lg:grid lg:grid-cols-2  px-5 lg:px-10 text-xl lg:text-2xl lg:text-center py-4 lg:pt-8  border-b border-b-gray-600 lg:border-b-0 lg:border-r lg:border-r-gray-600 ">
@@ -114,9 +121,12 @@
                 <p class="uppercase lg:normal-case text-gray-500">From</p>
             </div>
 
-            <img class="w-9 absolute border border-gray-100 bg-white rounded-full p-1 ml-[323px] lg:ml-[213px] mt-9 shadow-lg shadow-light-100 "
+            <img class=" hidden lg:block w-9 absolute border border-gray-100 bg-white rounded-full p-1  lg:ml-[213px] mt-9 shadow-lg shadow-light-100 "
                 src="./assets/left_right_arrows.png" />
 
+            <div class="lg:hidden rounded-full absolute shadow-lg shadow-slate-100 bg-[#3f3f3f] ml-80 mt-9"><img
+                    class=" w-9 p-1" src="./assets/top_down_arrows.png" />
+            </div>
             <div
                 class="flex items-center gap-4 py-4  px-5  lg:grid lg:grid-cols-2  lg:px-10 text-xl lg:text-2xl lg:text-center lg:pt-8 border-b border-b-gray-600 lg:border-b-0 lg:border-r lg:border-r-gray-600  ">
                 <i class="fa-solid fa-bus pt-1" style="color: #525456;"></i>
@@ -124,14 +134,23 @@
             </div>
 
             <div
-                class=" flex items-center gap-4 py-4 px-5   lg:grid lg:grid-cols-2  lg:px-10 text-xl lg:text-2xl lg:text-center lg:pt-8 border-b border-b-gray-600 lg:border-b-0 lg:border-r  lg:border-r-gray-600 ">
-                <i class="fa-solid fa-calendar-days pt-1" style="color: #525456;"></i>
-                <p class="uppercase font-semibold lg:normal-case text-gray-500"><span
-                        class="hidden lg:block">DATE</span><span class="lg:hidden font-bold">07</span> Jun <span
-                        class="text-sm lg:hidden">fri</span></p>
+                class=" flex items-center justify-between py-4 px-5   lg:grid lg:grid-cols-2  lg:px-10 text-xl lg:text-2xl lg:text-center lg:pt-8 border-b border-b-gray-600 lg:border-b-0 lg:border-r  lg:border-r-gray-600 ">
+
+                <div class="flex items-center gap-3"> <i class="fa-solid fa-calendar-days pt-1"
+                        style="color: #525456;"></i>
+                    <p class="uppercase font-semibold lg:normal-case text-gray-500"><span
+                            class="hidden lg:block">DATE</span><span class="lg:hidden font-bold">07</span> Jun <span
+                            class="text-sm lg:hidden">fri</span></p>
+                </div>
+
+                <div class="flex items-center gap-2 text-sm font-semibold lg:hidden text-blue-800">
+                    <p>Today</p>
+                    <p>Tomorrow</p>
+                </div>
             </div>
+
             <div
-                class="py-2 lg:pb-0 my-4 lg:mb-0 bg-rose-600 text-xl lg:px-5 lg:py-10 font-bold  lg:rounded-tr-3xl lg:rounded-br-3xl">
+                class="py-2 lg:pb-0 my-4 lg:my-0 lg:mb-0 bg-rose-600 text-xl lg:px-5 lg:py-10 font-bold  lg:rounded-tr-3xl lg:rounded-br-3xl">
                 <p class="uppercase text-white text-center ">Search Buses</p>
             </div>
         </div>
