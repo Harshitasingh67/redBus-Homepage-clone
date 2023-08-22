@@ -20,13 +20,13 @@
 
     <nav class=" p-6 flex justify-between items-center  border border-t-gray-400 border-b-gray-400">
         <div class="flex gap-5">
-            <div class="lg:hidden">
+            <div class="hidden">
                 <i class="fa-solid fa-bars " style="color: #0c0d0d;"></i>
             </div>
-            <img class="width:100px h-8 lg:w-[130px] lg:h-[50px] lg:border-r-[1px] lg:border-gray-500 pr-12 mr-12 font-black "
+            <img class="  w-[130px] h-[50px] border-r-[1px] border-gray-500 pr-12 mr-12 font-black "
                 src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" />
 
-            <section class="hidden  lg:flex gap-16">
+            <section class=" flex gap-16">
 
                 <div class="flex justify-center items-center flex-col">
                     <img class="grayscale brightness-0 contrast-[100%] w-11 hover:filter-none"
@@ -50,11 +50,9 @@
 
         </div>
 
+        <div class="flex pr-10">
 
-
-        <div class="flex lg:pr-10">
-
-            <div class="lg:hidden mr-3 border-[1px] border-black rounded-sm px-0.5 pt-1 flex relative h-7 ">
+            <div class="hidden mr-3 border-[1px] border-black rounded-sm px-0.5 pt-1  relative h-7 ">
                 <i class="fa-solid fa-arrow-down-long " style="color: #121212;"></i>
 
                 <div class="absolute pl-1 mt-0.5">.</div>
@@ -62,14 +60,14 @@
             </div>
             <section class="flex justify-center items-center gap-3">
                 <div class="flex justify-center items-center">
-                    <img class="w-9 h-9 hidden lg:block" src="./assets/help.png" />
-                    <p class="hidden lg:block">Help</p>
+                    <img class="w-9 h-9 block" src="./assets/help.png" />
+                    <p class="block">Help</p>
 
                 </div>
                 <div class="flex justify-center items-center"><i
                         class="fa-regular fa-user border-[1px] border-black p-1 w-6 h-6 rounded-full ml-6 mr-2"
                         style="color: #050505;"></i>
-                    <p class="text-sm text-center hidden  lg:flex  lg:justify-center lg:items-center">Account
+                    <p class="text-sm text-center   flex  justify-center items-center">Account
                         <span>&#x2304;</span>
                     </p>
                 </div>
@@ -78,34 +76,13 @@
 
     </nav>
 
-    <section class="  lg:hidden p-6 flex gap-4  shadow-lg">
-
-        <div class="flex justify-center items-center flex-col border-2 border-rose-600 bg-rose-600 rounded-lg ">
-            <img class="brightness-0 invert grayscale-1 w-11 pt-2"
-                src="https://st.redbus.in/web/images/layout/rb_vertical.svg" />
-            <p class="text-center text-white ">Book bus tickets</p>
-        </div>
-
-        <div class="flex justify-center items-center flex-col ">
-            <img class="grayscale brightness-0 contrast-[100%] w-11 "
-                src="https://st.redbus.in/web/images/layout/ryde_vertical.svg" />
-            <p class="text-center">Rent cabs, bus &TT</p>
-        </div>
-
-        <div class="flex justify-center items-center flex-col ">
-            <img class="grayscale brightness-0 contrast-[100%] w-11 "
-                src="https://st.redbus.in/web/images/layout/rail_vertical.svg" />
-            <p class="text-center">Book train tickets</p>
-        </div>
-
-    </section>
 
     <!-- main section started from here -->
 
     <main
-        class=" lg:block lg:bg-[url('https://s3.rdbuz.com/web/images/homeV2/HomeBannerImg.svg')]  w-[100%] lg:h-[590px] bg-no-repeat relative">
+        class=" block bg-[url('https://s3.rdbuz.com/web/images/homeV2/HomeBannerImg.svg')]  w-[100%] h-[590px]  bg-no-repeat ">
 
-        <section class="lg:hidden text-gray-800 text-center my-3 ">
+        <section class="hidden text-gray-800 text-center my-3 ">
 
             <h3 class="font-bold ">India's No. 1 bus booking site</h3>
             <p>Assured seat of your choice</p>
@@ -113,57 +90,237 @@
         </section>
 
         <div
-            class=" grid grid-cols-1 px-6 lg:px-0 lg:grid-cols-4  border-2 border-light-800  shadow-2xl lg:border-white lg:content-center  lg:bg-white lg:rounded-3xl lg:w-[930px] absolute ml-8 rounded-xl w-96 lg:mt-20 lg:ml-36 lg:h-28">
+            class=" grid  px-0 grid-cols-4  border-2   shadow-2xl border-white content-center  bg-white rounded-3xl w-[930px] absolute    mt-20 ml-36 h-28">
 
             <div
-                class="flex items-center gap-4  lg:grid lg:grid-cols-2  px-5 lg:px-10 text-xl lg:text-2xl lg:text-center py-4 lg:pt-8  border-b border-b-gray-600 lg:border-b-0 lg:border-r lg:border-r-gray-600 ">
+                class=" grid grid-cols-2   px-10  text-2xl text-center py-4 pt-8 border-b-0 border-r border-r-gray-600 ">
                 <i class="fa-solid fa-bus pt-1" style="color: #525456;"></i>
                 <p class="uppercase lg:normal-case text-gray-500">From</p>
             </div>
 
-            <img class=" hidden lg:block w-9 absolute border border-gray-100 bg-white rounded-full p-1  lg:ml-[213px] mt-9 shadow-lg shadow-light-100 "
+            <img class="   w-9 absolute border border-gray-100 bg-white rounded-full p-1  ml-[213px] mt-9 shadow-lg shadow-light-100 "
                 src="./assets/left_right_arrows.png" />
 
-            <div class="lg:hidden rounded-full absolute shadow-lg shadow-slate-100 bg-[#3f3f3f] ml-80 mt-9"><img
-                    class=" w-9 p-1" src="./assets/top_down_arrows.png" />
-            </div>
+
             <div
-                class="flex items-center gap-4 py-4  px-5  lg:grid lg:grid-cols-2  lg:px-10 text-xl lg:text-2xl lg:text-center lg:pt-8 border-b border-b-gray-600 lg:border-b-0 lg:border-r lg:border-r-gray-600  ">
+                class=" gap-4 py-4 grid grid-cols-2  px-10 text-2xl text-center pt-8  border-b-0 border-r border-r-gray-600  ">
                 <i class="fa-solid fa-bus pt-1" style="color: #525456;"></i>
-                <p class="uppercase lg:normal-case text-gray-500">To</p>
+                <p class="normal-case text-gray-500">To</p>
             </div>
 
             <div
-                class=" flex items-center justify-between py-4 px-5   lg:grid lg:grid-cols-2  lg:px-10 text-xl lg:text-2xl lg:text-center lg:pt-8 border-b border-b-gray-600 lg:border-b-0 lg:border-r  lg:border-r-gray-600 ">
+                class=" py-4   grid grid-cols-2  px-10  text-2xl text-center pt-8  border-b-0 border-r  border-r-gray-600 ">
 
-                <div class="flex items-center gap-3"> <i class="fa-solid fa-calendar-days pt-1"
+                <div class="flex items-center gap-3"> <i class="fa-solid fa-calendar-days pt-1 pb-6"
                         style="color: #525456;"></i>
-                    <p class="uppercase font-semibold lg:normal-case text-gray-500"><span
-                            class="hidden lg:block">DATE</span><span class="lg:hidden font-bold">07</span> Jun <span
-                            class="text-sm lg:hidden">fri</span></p>
+                    <p class=" font-semibold text-gray-800 pb-6">Date</p>
                 </div>
 
-                <div class="flex items-center gap-2 text-sm font-semibold lg:hidden text-blue-800">
-                    <p>Today</p>
-                    <p>Tomorrow</p>
-                </div>
+
             </div>
 
-            <div
-                class="py-2 lg:pb-0 my-4 lg:my-0 lg:mb-0 bg-rose-600 text-xl lg:px-5 lg:py-10 font-bold  lg:rounded-tr-3xl lg:rounded-br-3xl">
-                <p class="uppercase text-white text-center ">Search Buses</p>
+            <div class=" pb-0   bg-rose-600 text-xl px-5  font-bold  rounded-tr-3xl rounded-br-3xl">
+                <p class="uppercase text-white text-center py-10">Search Buses</p>
             </div>
         </div>
 
-        <!-- Trending offers section -->
 
-        <section>
-
-
-        </section>
 
     </main>
+
+    <!-- Trending offers section -->
+
+    <section
+        class="border-2 border-white rounded-xl mx-10 py-5 px-10  shadow shadow-cyan-900   bg-white relative -mt-64">
+
+        <h1 class="uppercase text-4xl pb-6 text-gray-600">Trending Offers</h1>
+
+        <div class="carousel carousel-end  space-x-5 overflow-x-scroll min-w-full">
+            <div
+                class="carousel-item border-2 border-blue-600 bg-blue-600 px-4 py-7 l flex  items-center gap-3 rounded-2xl w-64 h-28">
+                <img class="rounded-full w-20 h-20"
+                    src="https://st.redbus.in/images/FIRST/first_26th_sep_2022_ravi/tile-80X80.png" alt="img1" />
+
+                <div class="text-white ">
+                    <h4 class="border border-blue-400 bg-blue-400 uppercase font-semibold text-sm w-fit p-1 rounded-xl">
+                        bus
+                    </h4>
+                    <p class="font-semibold text-lg">Save up to Rs 250 on bus tickets</p>
+                    <p class="text-sm pb-1">Valid till 31 Aug</p>
+                    <div class=" flex  items-center gap-3">
+                        <h4
+                            class="uppercase text-sm font-bold border-dashed border border-white-500 bg-blue-400 rounded-lg p-1">
+                            first
+                        </h4>
+                        <i class="fa-regular fa-copy" style="color: #f5f7fa;"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="carousel-item border-2 border-cyan-600 bg-gradient-to-r from-cyan-700 to-cyan-300 px-4 py-7 l lg:flex  items-center gap-3 rounded-2xl w-64 h-28 hidden">
+                <img class="rounded-full w-20 h-20" src="https://st.redbus.in/images/offers/superhit_rav/2_1.png"
+                    alt="img2" />
+                <div class="text-white ">
+                    <h4 class="border border-cyan-400 bg-cyan-400 uppercase font-semibold text-sm w-fit p-1 rounded-xl">
+                        bus
+                    </h4>
+                    <p class="font-semibold text-lg">Save up to Rs 350 in AP,TS routes</p>
+                    <p class="text-sm pb-1">Valid till 31 Aug</p>
+                    <div class=" flex  items-center gap-3">
+                        <h4
+                            class="uppercase text-sm font-bold border-dashed border border-white-500 bg-cyan-400 rounded-lg p-1">
+                            superhit</h4>
+                        <i class="fa-regular fa-copy" style="color: #f5f7fa;"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="carousel-item border-2 border-rose-600 bg-gradient-to-r from-rose-800 to-rose-400 px-4 py-7 l lg:flex  items-center gap-3 rounded-2xl w-64 h-28 hidden">
+                <img class="rounded-full w-20 h-20" src="https://st.redbus.in/Images/INDOFFER/BUS200/80x80.png"
+                    alt="img3" />
+                <div class="text-white ">
+                    <h4 class="border border-rose-400 bg-rose-400 uppercase font-semibold text-sm w-fit p-1 rounded-xl">
+                        bus
+                    </h4>
+                    <p class="font-semibold text-lg">Save up to Rs 250 on bus tickets</p>
+                    <p class="text-sm pb-1">Valid till 31 Aug</p>
+                    <div class=" flex  items-center gap-3">
+                        <h4
+                            class="uppercase text-sm font-bold border-dashed border border-white-500 bg-rose-400 rounded-lg p-1">
+                            bus200
+                        </h4>
+                        <i class="fa-regular fa-copy" style="color: #f5f7fa;"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div
+                class="carousel-item border-2 border-green-600 bg-gradient-to-r from-green-800 to-green-300 px-4 py-7 l flex  items-center gap-3 rounded-2xl w-64 h-28">
+                <img class="rounded-full w-20 h-20" src="https://st.redbus.in/Images/INDOFFER/RB200/80x80.png"
+                    alt="img4" />
+                <div class="text-white ">
+                    <h4
+                        class="border border-green-400 bg-green-400 uppercase font-semibold text-sm w-fit p-1 rounded-xl">
+                        bus
+                    </h4>
+                    <p class="font-semibold text-lg">Save up to Rs 250 on bus tickets</p>
+                    <p class="text-sm pb-1">Valid till 31 Aug</p>
+                    <div class=" flex  items-center gap-3">
+                        <h4 class="uppercase text-sm font-bold border border-green-400 bg-green-400 rounded-lg p-1">
+                            rb200</h4>
+                        <i class="fa-regular fa-copy" style="color: #f5f7fa;"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="carousel-item border-2 border-sky-600 bg-gradient-to-r from-sky-800 to-sky-300 px-4 py-7 l flex  items-center gap-3 rounded-2xl w-64 h-28">
+                <img class="rounded-full w-20 h-20" src="https://st.redbus.in/Images/APSRTC/new/APSRTC_3.png"
+                    alt="img5" />
+                <div class="text-white ">
+                    <h4 class="border border-sky-300 bg-sky-300 uppercase font-semibold text-sm w-fit p-1 rounded-xl">
+                        bus
+                    </h4>
+                    <p class="font-semibold text-lg">Save up to Rs 250 on bus tickets</p>
+                    <p class="text-sm pb-1">Valid till 31 Aug</p>
+                    <div class=" flex  items-center gap-3">
+                        <h4 class="uppercase text-sm font-bold border border-sky-300 bg-sky-300 rounded-lg p-1">
+                            apsrtcnew</h4>
+                        <i class="fa-regular fa-copy" style="color: #f5f7fa;"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="carousel-item border-2 border-orange-600 bg-gradient-to-r from-orange-700 to-orange-500 px-4 py-7 l flex  items-center gap-3 rounded-2xl w-64 h-28">
+                <img class="rounded-full w-20 h-20" src="https://st.redbus.in/Images/TSRTC/80x80.png" alt="img6" />
+                <div class="text-white ">
+                    <h4
+                        class="border border-orange-400 bg-orange-400 uppercase font-semibold text-sm w-fit p-1 rounded-xl">
+                        bus
+                    </h4>
+                    <p class="font-semibold text-lg">Save up to Rs 250 on bus tickets</p>
+                    <p class="text-sm pb-1">Valid till 31 Aug</p>
+                    <div class=" flex  items-center gap-3">
+                        <h4 class="uppercase text-sm font-bold border border-orange-400 bg-orange-400 rounded-lg p-1">
+                            first</h4>
+                        <i class="fa-regular fa-copy" style="color: #f5f7fa;"></i>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+
+    </section>
+
+    <section>
+        <img class="my-10 mx-44" src=" https://st.redbus.in/Images/99/webreferal.png" />
+    </section>
+
+    <!-- Tickets with redbus section -->
+
+    <section class="flex items-center mx-32  py-20 ">
+
+        <div class="w-[780px]">
+            <h2 class="uppercase text-[42px] tracking-wide mb-12">now, <span class="font-bold ">get more than just
+                    bus</span>
+                tickets
+                with
+                redbus!</h2>
+            <section class="border-b-2 border-rose-600 flex items-center gap-8 pb-4 divide-x-2 ">
+                <div class="flex items-center  gap-4 ">
+                    <img class="filter hue-rotate-90 w-16"
+                        src="https://st.redbus.in/web/images/layout/ryde_vertical.svg" />
+
+                    <p class="text-xl font-bold text-rose-500">Cab/Bus Rental</p>
+                </div>
+
+                <div class="flex items-center gap-4 pl-8">
+                    <img class="filter grayscale w-12 "
+                        src="https://st.redbus.in/web/images/layout/rail_vertical.svg" />
+                    <p class="text-xl text-gray-700">Train Tickets</p>
+                </div>
+            </section>
+
+            <section class="">
+                <h4 class="py-8 text-lg text-gray-600 ">Rent Cabs, Tempo Travellers & Buses with best drivers</h4>
+
+                <div class="flex items-center gap-8 ">
+                    <img src="https://s3.rdbuz.com/web/images/homeV2/AboutUs/ryde_car.svg" />
+                    <p class="text-lg font-bold pl-2">Outstation</p>
+                </div>
+
+                <div class="flex items-center gap-8 py-4">
+                    <img src="https://s1.rdbuz.com/web/images/homeV2/AboutUs/ryde_car_hourly.svg" />
+                    <p class=" text-lg font-bold pl-1">Hourly Rental</p>
+                </div>
+
+                <div class="flex items-center gap-8 ">
+                    <img src="https://s2.rdbuz.com/web/images/homeV2/AboutUs/ryde_airport_transport.svg" />
+                    <p class=" text-lg font-bold">Airport Transfers</p>
+                </div>
+
+            </section>
+
+            <button
+                class=" py-3 px-4 mt-16 border-2 border-rose-500 bg-rose-500 text-white text-xl font-bold rounded-2xl">Book
+                Cab
+                / Bus
+                Rental
+                <span><i class="fa-solid fa-arrow-right" style="color: #f7f9fc;"></i></span></button>
+        </div>
+        <!-- secondpart -->
+        <div class="">
+            <img class=" " src="https://s3.rdbuz.com/web/images/homeV2/AboutUs/rydePop.svg" />
+        </div>
+
+    </section>
+
 
 </body>
 
 </html>
+
+<!-- decoration-solid -->
